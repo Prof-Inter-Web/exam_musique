@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  background-image: url(./img/banner-bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.banner-content {
+  height: 95vh;
+}
+
+.banner-content h1 {
+  color: #fff;
+  font-size: 80px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.15em;
+  text-shadow: 13px 15px 8px rgba(63, 107, 169, 0.5);
+  position: relative;
+  text-align: center;
+  top: 375px;
+}
+
+.banner-content p {
+  color: #fff;
+  margin-bottom: 60px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  position: relative;
+  top: 400px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(to right, #691bff, #ea1cb5);
+  width: 100%;
+}
+
+.menu img {
+  padding: 25px 0 20px 40px;
+}
+
+.menu nav {
+  list-style-type: none;
+  display: inline;
+  float: right;
+  padding: 27px 20px 0 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gallery {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0;
+}
+
+.gallery td {
+  padding: 0;
+  display: inline-block;
+}
+
+.gallery tr {
+  font-size: 0;
+}
+
+.artist {
+  font-size: 4rem;
+  padding: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #7e05c4;
+}
+
+.slogan {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.slogan1 {
+  font-size: 1.7rem;
+  width: 25rem;
+  text-align: right;
+}
+
+.slogan2 {
+  width: 30rem;
+  padding: 15px;
+  text-align: justify;
+}
+
+.slogan span {
+  color: #ea1cb5;
+  font-weight: 900;
+}
+
+.services-bg {
+  background-image: url(./img/service-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin-top: 100px;
+  padding-left: 20rem;
+  padding-top: 5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.services {
+  padding-top: 25px;
+}
+
+.services .services1 {
+  width: 450px;
+}
+.services1 {
+  display: inline-block;
+}
+
+.services1 h4 {
+  padding: 10px;
+}
+
+.services1 p {
+  padding-left: 10px;
+}
+
+.about {
+  background-image: url(./img/about-bg.jpg);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-text {
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+
+.about h2 {
+  color: #691cff;
+  font-size: 30px;
+  font-weight: 200;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.about span {
+  font-weight: 900;
+  color: #d306fc;
+}
+
+.titre {
+  width: 40rem;
+  padding-top: 40px;
+}
+
+.newsletter {
+  background-color: #f9f9ff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 50px;
+}
+
+.newsletter-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter-table h2 {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.newsletter-table td {
+  padding: 20px;
+}
+
+input {
+  border: 1px solid #d4d5e0;
+  line-height: 48px;
+  width: 100%;
+  display: block;
+  background: transparent;
+  padding: 0 25px;
+  color: #777777;
+}
+
+textarea {
+  border: 1px solid #d4d5e0;
+  width: 100%;
+  margin-top: 70px;
+  display: block;
+  background: transparent;
+  padding: 15px 25px;
+  color: #777777;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bouton {
+  background-image: linear-gradient(to right, #691bff, #ea1cb5);
+  border-radius: 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #636363;
+}
